@@ -1,0 +1,26 @@
+*~
+.DS_Store
+.svn
+.cvs
+*.bak
+*.swp
+Thumbs.db
+.sass-cache
+debug.log
+npm-debug.log
+
+# WordPress specific
+uploads/
+blogs.dir/
+upgrade/*
+backup-db/*
+object-cache.php
+advanced-cache.php
+db.php
+wp-cache-config.php
+cache/
+
+# Disallow all plugins and themes
+plugins/*
+themes/*
+mu-plugins/*
